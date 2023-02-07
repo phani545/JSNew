@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="../css/sheet.css">
+    <script type="text/javascript" src="../JavaScript/Validation.js"></script>
+    <title>Document</title>
+    
+</head>
+<body>
+ <div>
+   <form action="registration.html" method="post">
+     <table >
+        <tr>
+            <td>UserName</td>
+            <td><input type="text" id="txtName" name="txtName" /></td>            
+        </tr>
+        <tr>
+            <td>Password1</td>
+            <td><input type="password" id="txtPassword" name="txtPassword" placeholder="Enter the Password" /></td>            
+        </tr> 
+        <tr>
+            <td>ReEnter Password</td>
+            <td><input type="password" id="txtPassword1" name="txtPassword1" placeholder="ReEnter the Password" /></td>            
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" id="male" name="gender" value="Male" />Male 
+                <input type="radio" id="female" name="gender" value="Female" />Female
+            </td>            
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="text" id="txtEmail" name="txtEmail" placeholder="ReEnter the Email" /></td>            
+        </tr>
+        <tr>
+            <td>Hobby</td>
+            <td>
+                <input type="checkbox" name="hoby" value="Cricket" />Cricket 
+                <input type="checkbox" name="hoby" value="Chess" />Chess
+                <input type="checkbox" name="hoby" value="Music" />Music    
+            </td>            
+        </tr>
+        <tr>
+            <td>Age</td>
+            <td><input type="text" id="txtAge" name="txtAge" placeholder="ReEnter the Age" onkeypress="return isNumber(event)" /></td>            
+        </tr>
+     </table>
+    </br>
+    <input type="submit" value="submitform" onclick="return alertValues()" />
+    <input type="reset" value="Reset" />
+    <input type="submit" value="Clear" onclick="Clear()" />
+
+   </form>
+   </br></br>
+   <lable id="txtNameError" ></lable> </br>
+   <lable id="txtPasswordError" ></lable> </br>
+   <lable id="ilbPasswordError" ></lable> </br>
+   <lable id="ilbEmailError" ></lable> </br>
+   <lable id="ilbcheckError" ></lable> </br>
+   <lable id="ilbageError" ></lable> </br>
+
+ </div>  
+</body>
+</html>

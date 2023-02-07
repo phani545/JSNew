@@ -1,0 +1,19 @@
+body{
+  background-color: antiquewhite;
+
+}
+
+table{
+    border: 2px solid black;
+    margin: 10px;
+}
+
+#txtNameError{
+  color:brown;
+  
+  margin: 10px;
+}
+
+.textcolor{
+  color:red;
+}

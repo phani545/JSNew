@@ -1,0 +1,22 @@
+=======================================>
+To Print value 
+document.write("Telugu Programmer");
+=======================================>
+Declare the variable to store the value;
+var x = 14;
+var y;
+var z;
+
+var x,y,z;
+x=12;
+y=14;
+z="telugu"
+var q = x + y;
+document.write("<br>");
+document.write("sum is :" + z);
+
+document.write(x);
+document.write(y);
+====================
+To break the variable
+document.write("<br>");
